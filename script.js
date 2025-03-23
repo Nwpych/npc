@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // 在实际场景中，你应该使用类似以下的代码：
                 /*
                 emailjs.send('your_service_id', 'your_template_id', {
-                    to_email: '1771376501@qq.com',
+                    to_email: '你自己的邮件.com',
                     from_name: nameValue,
                     from_email: randomEmail,
                     subject: subjectValue,
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 if (isSuccess) {
                     console.log('模拟发送成功');
-                    console.log('发送邮件到: 1771376501@qq.com');
+                    console.log('发送邮件到: 你自己的邮件.com');
                     console.log('发件人: ' + nameValue);
                     console.log('随机邮箱: ' + randomEmail);
                     console.log('主题: ' + subjectValue);
